@@ -99,6 +99,8 @@ const PostReview = () => {
       <div className='input_field'>
       Purchase Date <input type="date" onChange={(e) => setDate(e.target.value)}/>
       </div>
+      
+      <h1>{console.log("hi")}</h1>
       <div className='input_field'>
       Car Make 
       <select name="cars" id="cars" onChange={(e) => setModel(e.target.value)}>
