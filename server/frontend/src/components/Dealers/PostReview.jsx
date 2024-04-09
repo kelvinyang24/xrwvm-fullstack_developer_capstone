@@ -86,7 +86,7 @@ const PostReview = () => {
   }
   useEffect(() => {
     get_dealer();
-    //get_cars();
+    get_cars();
   },[]);
 
 
